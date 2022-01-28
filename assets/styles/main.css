@@ -6,7 +6,12 @@
   align-items: center;
 }
 
-.main__board--row {
+.main__board--row--first,
+.main__board--row--second,
+.main__board--row--third,
+.main__board--row--fourth,
+.main__board--row--fifth,
+.main__board--row--sixth {
   margin-bottom: 10px;
   width: 420px;
   height: fit-content;
@@ -23,5 +28,16 @@
 }
 
 .main__board--row--input {
+  padding-left: 22px;
+  caret-color: transparent;
+  outline: none;
+  position: absolute;
+  font-size: 60px;
+  color: whitesmoke;
+  border: none;
+  width: 430px;
+  height: 60px;
   background: transparent;
+  font-family: monospace;
+  letter-spacing: 53px;
 }
