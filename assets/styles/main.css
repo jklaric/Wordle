@@ -6,12 +6,7 @@
   align-items: center;
 }
 
-.main__board--row--first,
-.main__board--row--second,
-.main__board--row--third,
-.main__board--row--fourth,
-.main__board--row--fifth,
-.main__board--row--sixth {
+.main__board--row {
   margin-bottom: 10px;
   width: 420px;
   height: fit-content;
@@ -25,9 +20,12 @@
   border-color: gray;
   width: 70px;
   height: 70px;
+  background-color: darkgray;
 }
 
 .main__board--row--input {
+  cursor: default;
+  margin-top: 5px;
   padding-left: 22px;
   caret-color: transparent;
   outline: none;
@@ -40,4 +38,5 @@
   background: transparent;
   font-family: monospace;
   letter-spacing: 53px;
+  text-transform: uppercase;
 }
