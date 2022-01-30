@@ -1,5 +1,5 @@
 .main__board {
-  margin-top: 250px;
+  margin-top: 200px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -39,4 +39,11 @@
   font-family: monospace;
   letter-spacing: 53px;
   text-transform: uppercase;
+}
+
+.main__alertbox {
+  display: flex;
+  justify-content: center;
+  color: whitesmoke;
+  font-size: 20px;
 }
