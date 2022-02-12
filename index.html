@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/common.css">
+    <link rel="stylesheet" href="./styles/nav.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>Wordle</title>
+</head>
+
+<body>
+    <nav>
+        <h1 class="nav__wordle">WORDLE</h1>
+    </nav>
+
+    <main>
+        <section class="main__board">
+            <section class="main__board--row" id="r1">
+                <input type="text" maxlength="5" spellcheck="false" class="main__board--row--input" id="r1Input">
+                <div class="main__board--row--tile" id="r1t1"></div>
+                <div class="main__board--row--tile" id="r1t2"></div>
+                <div class="main__board--row--tile" id="r1t3"></div>
+                <div class="main__board--row--tile" id="r1t4"></div>
+                <div class="main__board--row--tile" id="r1t5"></div>
+            </section>
+
+            <section class="main__board--row" id="r2">
+                <input type="text" maxlength="5" spellcheck="false" class="main__board--row--input" id="r2Input">
+                <div class="main__board--row--tile" id="r2t1"></div>
+                <div class="main__board--row--tile" id="r2t2"></div>
+                <div class="main__board--row--tile" id="r2t3"></div>
+                <div class="main__board--row--tile" id="r2t4"></div>
+                <div class="main__board--row--tile" id="r2t5"></div>
+            </section>
+
+            <section class="main__board--row" id="r3">
+                <input type="text" maxlength="5" spellcheck="false" class="main__board--row--input" id="r3Input">
+                <div class="main__board--row--tile" id="r3t1"></div>
+                <div class="main__board--row--tile" id="r3t2"></div>
+                <div class="main__board--row--tile" id="r3t3"></div>
+                <div class="main__board--row--tile" id="r3t4"></div>
+                <div class="main__board--row--tile" id="r3t5"></div>
+            </section>
+
+            <section class="main__board--row" id="r4">
+                <input type="text" maxlength="5" spellcheck="false" class="main__board--row--input" id="r4Input">
+                <div class="main__board--row--tile" id="r4t1"></div>
+                <div class="main__board--row--tile" id="r4t2"></div>
+                <div class="main__board--row--tile" id="r4t3"></div>
+                <div class="main__board--row--tile" id="r4t4"></div>
+                <div class="main__board--row--tile" id="r4t5"></div>
+            </section>
+
+            <section class="main__board--row" id="r5">
+                <input type="text" maxlength="5" spellcheck="false" class="main__board--row--input" id="r5Input">
+                <div class="main__board--row--tile" id="r5t1"></div>
+                <div class="main__board--row--tile" id="r5t2"></div>
+                <div class="main__board--row--tile" id="r5t3"></div>
+                <div class="main__board--row--tile" id="r5t4"></div>
+                <div class="main__board--row--tile" id="r5t5"></div>
+            </section>
+
+            <section class="main__board--row" id="r6">
+                <input type="text" maxlength="5" spellcheck="false" class="main__board--row--input" id="r6Input">
+                <div class="main__board--row--tile" id="r6t1"></div>
+                <div class="main__board--row--tile" id="r6t2"></div>
+                <div class="main__board--row--tile" id="r6t3"></div>
+                <div class="main__board--row--tile" id="r6t4"></div>
+                <div class="main__board--row--tile" id="r6t5"></div>
+            </section>
+        </section>
+
+        <section class="main__alertbox">
+            <h1 class="main__alertbox--text"></h1>
+        </section>
+    </main>
+    <script src="./common/constants.js"></script>
+    <script src="./scripts/main.js"></script>
+    <script src="./scripts/index.js"></script>
+</body>
+
+</html>
