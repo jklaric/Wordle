@@ -1,5 +1,3 @@
-const wordList = ["apple", "grape", "peach", "berry"];
-
 let rowFieldList = [
   document.querySelector("#r1Input"),
   document.querySelector("#r2Input"),
@@ -58,3 +56,16 @@ let sixthRow = [
 ];
 
 let rowList = [firstRow, secondRow, thirdRow, fourthRow, fifthRow, sixthRow];
+
+const wordList = [
+  "virus",
+  "write",
+  "cable",
+  "stats",
+  "slope",
+  "mount",
+  "admin",
+  "pixel",
+  "queue",
+  "slugs",
+];
